@@ -10,6 +10,10 @@ body {
     text-align: center;
 
 }
+#output {
+    font-size: large;
+    margin-top: 3rem;
+}
 
 
 
@@ -68,34 +72,28 @@ h4 {
 }
 .nav-bar {
     border: solid #D97706;
-    padding-bottom: 2rem;
-    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
     text-align: right;
     background-color:#B45309;
-    border-end-start-radius: 3rem
-    ;
+    border-end-start-radius: 3rem;
     border-top-left-radius: 3rem;
-    
-    
-    
-    margin-top: 0rem;
-    
+    margin-right: 0rem;
+    border-style:groove ;
     
     
 }
 .nav-btn {
     padding: 1rem;
     text-decoration: none;
-    
-    
     color: #FFFBEB;
     font-size: large;
+    margin-top: 4rem;
+
     
 }
 #is-triangle-btn {font-family: Lato;
     font-size: 1.2rem;
-    
-    
     font-weight: bold;
     cursor: pointer;
     background-color:#78350F;
