@@ -5,9 +5,6 @@ const outPut = document.querySelector("#output")
 function calculateBaseIntoHeight(base, height) {
     const baseIntoHeight = (base * height) * 1 / 2;
     return baseIntoHeight;
-
-
-
 }
 
 function calculateArea() {
@@ -16,9 +13,7 @@ function calculateArea() {
     outPut.innerText = "The Area of Triangle  " + baseIntoHeight
 
 
-
-    //console.log(baseIntoHeight);
-
+    //console.log(baseIntoHeight)//
 
 }
 
