@@ -8,8 +8,7 @@ function calculateSumOfAngles (angle1,angle2,angle3) {
     
     const  sumOfAngles = angle1+angle2+angle3
     return sumOfAngles;
-        
-    }
+         }
 
     function isTriangle () {
         const sumOfAngles = calculateSumOfAngles(Number(Angle1.value),Number(Angle2.value),Number(Angle3.value))
@@ -25,10 +24,6 @@ function calculateSumOfAngles (angle1,angle2,angle3) {
 
     }
     
-
-
-
-
 
     isTriangleBtn.addEventListener("click",isTriangle)
 

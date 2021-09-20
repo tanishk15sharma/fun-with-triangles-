@@ -6,7 +6,6 @@ body {
     font-family: Lato;
     font-weight: bold;
     background-color:#FEF3C7;
-
     text-align: center;
 
 }
@@ -15,27 +14,17 @@ body {
     margin-top: 3rem;
 }
 
-
-
-
-
-
 h1 {
     font-family: Montserrat;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    color:
-
-    #78350F;
+    color:#78350F;
 }
-
 
 label {
     font-size: 1.2rem;
     display: block;
-    
     color: #78350F;
-    
 }
 
 
@@ -101,13 +90,12 @@ h4 {
     border-radius: 1rem;
     padding: 0.5rem 2rem;
     margin-top: 0rem;
-    color:
-#FFFBEB;}
+    color:#FFFBEB;
+}
 
 
 #hypotenuse-btn {font-family: Lato;
     font-size: 1.2rem;
-    
     font-weight: bold;
     cursor: pointer;
     background-color:#78350F;
