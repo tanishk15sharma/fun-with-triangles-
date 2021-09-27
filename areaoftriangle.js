@@ -7,6 +7,8 @@ function calculateBaseIntoHeight(base, height) {
     return baseIntoHeight;
 }
 
+
+
 function calculateArea() {
     const baseIntoHeight = calculateBaseIntoHeight(Number(sides[0].value), Number(sides[1].value));
 

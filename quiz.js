@@ -3,10 +3,15 @@ const submitAnswerBtn = document.querySelector("#submit-answer-btn")
 const outPut = document.querySelector("#output")
 const correctAnswers = ["90°", "right angled", "Equilateral", "Isosceles", "Acute"]
 
-function calculateScore() {
+function calculateScore(event) {
+    event.preventDefault();
     let score = 0;
     let index = 0;
-    const formResults = new FormData(quizForm)
+
+
+    const formResults = new FormData(quizForm);
+
+
     for (let value of formResults.values()) {
         if (value === correctAnswers[index]) {
             score = score + 1
@@ -16,4 +21,4 @@ function calculateScore() {
     outPut.innerText = "Your score is  " + score
 }
 
-submitAnswerBtn.addEventListener("click", calculateScore)
+quizForm.addEventListener("submit", calculateScore);
